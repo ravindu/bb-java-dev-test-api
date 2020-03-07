@@ -1,4 +1,4 @@
-package com.bb.java.developer.exception;
+package com.bb.java.developer;
 
 import com.bb.java.developer.model.ProductRequest;
 
