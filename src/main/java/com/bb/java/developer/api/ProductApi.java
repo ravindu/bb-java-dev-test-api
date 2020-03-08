@@ -28,5 +28,5 @@ public interface ProductApi {
     @GetMapping(
             value = "/product/{event-id}",
             consumes = MediaType.APPLICATION_JSON_VALUE)
-    Mono<ProductResponse> getProduct(@PathVariable("eventId") String eventId);
+    Mono<ProductResponse> getProduct(@PathVariable("event-id") String eventId);
 }
